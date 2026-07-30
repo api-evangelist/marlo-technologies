@@ -1,8 +1,22 @@
 aid: marlo-technologies
 name: Marlo Technologies
-description: Marlo Technologies is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+description: >-
+  Marlo is a maritime ERP platform for dry bulk, tanker, and commercial shipping
+  companies, unifying chartering, voyage management, finance, banking, and
+  compliance in a single system. Operators use Marlo to plan charters, track
+  voyage operations and cargo, model voyage P&L and cashflow, run valuations and
+  credit scoring, manage loans and covenants, hold multi-currency accounts with
+  FX transfers and corporate cards, and handle sanctions screening, emissions
+  tracking, and CII rating management. Marlo is a Techstars-backed company and
+  holds SOC 2 (AICPA) certification. It was surfaced as a portfolio company of
+  Techstars and added to the API Evangelist network. As of this pass the company
+  exposes a customer web application (app.marlo.co) but publishes no public
+  developer API, API documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/marlo-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +24,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.marlo.co/hubfs/marlo-co-logo.svg
 tags:
 - Company
+- Maritime
+- Shipping
+- ERP
+- Fintech
+- Banking
+- Compliance
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +55,27 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/marlo-technologies-domain-security.yml
 - type: Website
-  url: https://marlo.online/
+  url: https://www.marlo.co/
+- type: Blog
+  url: https://www.marlo.co/blog
+- type: Pricing
+  url: https://www.marlo.co/pricing
+- type: SignUp
+  url: https://app.marlo.co/sign-up
+- type: Login
+  url: https://app.marlo.co/login
+- type: Support
+  url: https://support.marlo.co/support/home
+- type: TermsOfService
+  url: https://www.marlo.co/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.marlo.co/privacy-policy
+- type: About
+  url: https://www.marlo.co/about-us
+- type: Compliance
+  url: conformance/marlo-technologies-conformance.yml
+- type: LLMsTxt
+  url: llms/marlo-technologies-llms.txt
