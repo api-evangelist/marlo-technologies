@@ -1,0 +1,32 @@
+# Marlo Technologies
+
+> Marlo is a maritime ERP platform for dry bulk, tanker, and commercial shipping companies, unifying chartering, voyage management, finance, banking, and compliance in a single system. Marlo is Techstars-backed and holds SOC 2 (AICPA) certification. As of this profile the company exposes a customer web application but publishes no public developer API, API documentation, or SDKs.
+
+## Product areas
+- Voyage management: charter planning, operations tracking, cargo monitoring
+- Analytics: dashboards, cashflow, valuations, credit scoring
+- Finance: loan management, covenant monitoring
+- Banking: multi-currency accounts, FX transfers, corporate cards
+- Compliance: sanctions screening, emissions tracking, CII rating management
+
+## Company
+- [Website](https://www.marlo.co/)
+- [About](https://www.marlo.co/about-us)
+- [Blog](https://www.marlo.co/blog)
+- [Careers](https://www.marlo.co/careers)
+- [Contact](https://www.marlo.co/contact-us)
+- [Pricing](https://www.marlo.co/pricing)
+
+## Application
+- [Sign up](https://app.marlo.co/sign-up)
+- [Login](https://app.marlo.co/login)
+- [Support](https://support.marlo.co/support/home)
+
+## Legal & trust
+- [Terms of use](https://www.marlo.co/terms-of-use)
+- [Privacy policy](https://www.marlo.co/privacy-policy)
+- SOC 2 (AICPA) certification stated on the homepage
+
+## Notes
+- No public API, OpenAPI/Swagger, developer portal, SDKs, or MCP server were found (probed 2026-07-20).
+- No /.well-known/ discovery documents are published (app.marlo.co returns an SPA catch-all for all paths).

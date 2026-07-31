@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.marlo.co/
+# Marlo publishes no public OpenAPI, so no API-level standards conformance can be
+# derived. The one verifiable, published compliance claim is a SOC 2 (AICPA)
+# certification badge displayed on the marketing homepage.
+standards:
+  - id: soc2
+    conforms: true
+    evidence: >-
+      Homepage (https://www.marlo.co/) displays an "AICPA certified" SOC 2
+      certificate badge/logo.
+    source: https://www.marlo.co/
+compliance:
+  program: SOC 2 (AICPA)
+  certifications:
+    - SOC 2
+  published_at: https://www.marlo.co/
