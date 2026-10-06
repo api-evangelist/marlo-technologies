@@ -48,7 +48,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 image: https://www.marlo.co/hubfs/marlo-co-logo.svg
 tags:
 - Company
@@ -66,6 +66,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.marlo.co/blog/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/marlo-technologies-domain-security.yml
 - type: Website
